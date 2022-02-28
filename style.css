@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.first{
+    background-color: rgb(226, 223, 223);
+    width: auto;
+    height: 300px;
+}
+.second{
+    background-color: whitesmoke;
+    width: auto;
+    height: 1200px;
+}
+.wrapper{
+    background-color: rgb(226, 223, 223);
+    width: auto;
+}
+.third{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 800px auto;
+}
+.third img:hover{
+    transform: scale(1.25);
+    transition: 0.8s;
+}
+.third img{
+    width: 390px;
+}
